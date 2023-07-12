@@ -1,0 +1,102 @@
+body {
+  font-family: "Roboto", Times, sans-serif;
+}
+
+.header,
+.footer {
+  background-color: #1f2937;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  margin: 0;
+  margin-left: 50px;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-right: 50px;
+}
+
+.header p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.copyright {
+  color: #e5e7eb;
+  padding: 25px;
+  margin: 0;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  margin: 0;
+}
+
+.author {
+  font-weight: bolder;
+  color: #1f2937;
+  font-size: 20px;
+  align-self: flex-end;
+  margin: 0;
+}
+
+.ad {
+  background-color: #3882f6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 48px;
+}
+
+.sub-ad {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+}
+.main-ad {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.button-ad {
+  border: 2px #e5e7eb solid;
+  border-radius: 8px;
+  background-color: #3882f6;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  padding: 6px;
+  margin: 0;
+}
